@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+body{
+    width: 70%;
+    min-width: 100vh;
+    color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100vh
+    
+}
+
+.wrapper-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 3rem;
+}
+
+
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.instagram-logo{
+    height: 3rem;
+
+}
+
+.instagram-login{
+    background-color:#0095f6;
+    border-radius: 4px;
+    padding: 8px;
+    color: white;
+}
+
+
+.instagram-logout{
+    margin-top: 1rem;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 1.3rem;
+    background-color: white;
+    width: 100%;
+    color: rgb(160, 160, 160);
+    margin: 4px;
+}
+
+.group p {
+    margin-bottom: 8px;
+}
+
+
+
+.profile{
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.profile img{
+    height: 6rem;
+
+}
+
+.get-app{
+    display: flex;
+    padding: 1.3rem 0;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.get-app p{
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+}
+
+
+
+.download{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+.get-app img{
+    height: 3rem;
+    width: 10rem;
+}
+
+.link-blue {
+    color: #0095f6;
+}
+
+
+@media (max-width: 1020px){
+    .wrapper{
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+        max-height: 80%;
+        max-width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .wrapper-login {
+        width: 80vw;
+        border: 1px solid lightgray;
+    }
+    
+    .group {
+        border: 1px solid transparent;
+    }
+}
